@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="UI_STATE">
+	<section name="c5b34253-ac19-4cde-8ee7-d52d7f8ade1c">
+		<item value="&lt;list/&gt;" key="EDITORS"/>
+		<item value="" key="CONTAINER"/>
+	</section>
+	<section name="01240529-f7d8-4a90-b039-f1cd4a0630a8">
+		<item value="&lt;list&gt;&#x0A;  &lt;SQL__WORKSHEET&gt;&#x0A;    &lt;isActive&gt;true&lt;/isActive&gt;&#x0A;    &lt;isDirty&gt;false&lt;/isDirty&gt;&#x0A;    &lt;index&gt;1&lt;/index&gt;&#x0A;    &lt;content&gt;&lt;/content&gt;&#x0A;    &lt;name&gt;Worksheet 2&lt;/name&gt;&#x0A;  &lt;/SQL__WORKSHEET&gt;&#x0A;&lt;/list&gt;" key="EDITORS"/>
+		<item value="" key="CONTAINER"/>
+	</section>
+	<section name="2d0272c9-5b07-44f1-bd62-d804ff56d6a7">
+		<item value="&lt;list&gt;&#x0A;  &lt;SQL__WORKSHEET&gt;&#x0A;    &lt;isActive&gt;false&lt;/isActive&gt;&#x0A;    &lt;isDirty&gt;false&lt;/isDirty&gt;&#x0A;    &lt;index&gt;1&lt;/index&gt;&#x0A;    &lt;content&gt;&lt;/content&gt;&#x0A;    &lt;name&gt;Worksheet 1&lt;/name&gt;&#x0A;  &lt;/SQL__WORKSHEET&gt;&#x0A;&lt;/list&gt;" key="EDITORS"/>
+		<item value="" key="CONTAINER"/>
+	</section>
+	<section name="cba8860d-cfb3-4086-a05d-7fe32c2434ed">
+		<item value="&lt;list/&gt;" key="EDITORS"/>
+		<item value="" key="CONTAINER"/>
+	</section>
+	<section name="43c51684-8856-455f-a5b6-282757774dc5">
+		<item value="&lt;list&gt;&#x0A;  &lt;SQL__WORKSHEET&gt;&#x0A;    &lt;isActive&gt;false&lt;/isActive&gt;&#x0A;    &lt;isDirty&gt;false&lt;/isDirty&gt;&#x0A;    &lt;index&gt;4&lt;/index&gt;&#x0A;    &lt;content&gt;&lt;/content&gt;&#x0A;    &lt;name&gt;Worksheet 1&lt;/name&gt;&#x0A;  &lt;/SQL__WORKSHEET&gt;&#x0A;  &lt;OBJECT__DETAIL&gt;&#x0A;    &lt;isActive&gt;true&lt;/isActive&gt;&#x0A;    &lt;isDirty&gt;false&lt;/isDirty&gt;&#x0A;    &lt;index&gt;5&lt;/index&gt;&#x0A;    &lt;name&gt;MEMBER&lt;/name&gt;&#x0A;    &lt;parent&gt;JAVA0919&lt;/parent&gt;&#x0A;    &lt;selectedTab&gt;0&lt;/selectedTab&gt;&#x0A;    &lt;sourceEditors/&gt;&#x0A;    &lt;type&gt;TABLE&lt;/type&gt;&#x0A;  &lt;/OBJECT__DETAIL&gt;&#x0A;&lt;/list&gt;" key="EDITORS"/>
+		<item value="" key="CONTAINER"/>
+	</section>
+	<section name="9eb39bfa-424b-4e54-aa62-89e59bfcc21f">
+		<item value="&lt;list/&gt;" key="EDITORS"/>
+		<item value="" key="CONTAINER"/>
+	</section>
+</section>

@@ -1,0 +1,66 @@
+/*게임의 스테이지로서 실제적으로 모든 그래픽이 처리되는 영역
+ * 
+ * */
+package com.sds.game;
+
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.event.KeyListener;
+
+import javax.swing.JPanel;
+
+public class GamePanel extends JPanel implements Runnable{
+	final static public int WIDTH=1024;
+	final static public int HEIGHT=768;
+	Thread gameThread;//게임의 심장부
+	boolean flag=true;
+	Hero hero;
+	
+	public GamePanel() {
+		this.setPreferredSize(new Dimension(WIDTH, HEIGHT));
+		createHero();
+	}
+	
+	@Override
+	public void paint(Graphics g) {
+		hero.render(g);//패널의 그래픽스 객체가 주인공에게 전달 되고
+		//그래픽스 객체로 그린 그림이 그려진다.
+	}
+	public void createHero(){//주인공 등장 메서드
+		hero=new Hero();
+	}
+	
+	//게임 시작 메서드
+	public void startGame(){
+		if(gameThread!=null){//이미 가동 중이라면
+			return;
+		}
+		flag=true;
+		gameThread=new Thread(this);
+		gameThread.start();
+	}
+	public void pauseGame(){//일시정지 메서드
+		flag=false;
+		gameThread=null;
+	}
+	public void exitGame(){//게임 종료 메서드
+		System.exit(-1);
+	}
+	
+	@Override
+	public void run() {
+		while(flag){
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			hero.tick();
+			repaint();//update->paint
+		}
+		
+	}
+}

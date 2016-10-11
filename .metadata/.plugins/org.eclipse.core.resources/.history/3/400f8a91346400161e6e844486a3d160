@@ -1,0 +1,28 @@
+package com.sds.game;
+
+import java.awt.Color;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class GameWindow extends JFrame{
+	GamePanel gamepanel;
+	public GameWindow() {
+				
+		gamepanel=new GamePanel();
+		
+		add(gamepanel);
+		pack();
+		
+		setLocationRelativeTo(null);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
+		setBackground(Color.black);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new GameWindow();
+	}
+
+}

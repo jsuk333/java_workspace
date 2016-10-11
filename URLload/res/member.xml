@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<members>
+	<member>
+		<name>성지석</name>
+		<age>28</age>
+		<gender>남</gender>
+	</member>
+	<member>
+		<name>성지수</name>
+		<age>26</age>
+		<gender>남</gender>
+	</member>
+	<member>
+		<name>성원진</name>
+		<age>59</age>
+		<gender>남</gender>
+	</member>
+</members>

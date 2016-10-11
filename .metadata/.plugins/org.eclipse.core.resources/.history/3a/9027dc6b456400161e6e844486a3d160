@@ -1,0 +1,26 @@
+/*적군을 정의 한다.
+ * 
+ * */
+package com.sds.game;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+public class Enemy extends GameObject{
+	int count;
+	public Enemy(int count) {
+		// TODO Auto-generated constructor stub
+		this.count=count;
+		velX=-10;
+		
+	}
+	public void tick(){
+		x+=velX;
+		y+=velY;
+	}
+	
+	public void render(Graphics g){//적군이 어떻게 그려질지
+		g.setColor(Color.red);
+		g.drawOval(x+900, y+count*50, 30, 30);
+	}
+}

@@ -1,0 +1,60 @@
+package com.sds.client;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+import javax.swing.JOptionPane;
+
+public class ChatThread extends Thread {
+	ChatClient chat;
+	BufferedReader buffr;
+	BufferedWriter buffw;
+	StringBuffer sb = new StringBuffer();
+
+	public ChatThread(ChatClient chat) {
+		this.chat = chat;
+		try {
+			buffr = new BufferedReader(new InputStreamReader(chat.client.getInputStream()));
+			buffw = new BufferedWriter(new OutputStreamWriter(chat.client.getOutputStream()));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void sendMsg(String msg) {
+		try {
+			
+			sb.delete(0, sb.length());
+			sb.append("{\"request\" : \"chatting\",");
+			sb.append("\"data\" : [{");
+			sb.append("\"msg\" : \""+chat.txt.getText()+"\",");
+			sb.append("\"room_num\" : \""+chat.room_num+"\"");
+			sb.append("}]}");
+			buffw.write(sb.toString()+"\n");
+			buffw.flush();
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void listen() {
+		try {
+			String msg = buffr.readLine();
+			System.out.println(msg);
+			chat.area.append(msg + "\n");
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void run() {
+			while(true){
+			listen();
+			}
+	}
+}

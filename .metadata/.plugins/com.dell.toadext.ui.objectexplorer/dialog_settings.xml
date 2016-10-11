@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ANALYZE#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@5d2bb9e8#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@243456c4#root">
+	</section>
+	<section name="REMOVE_SCHEMA_FROM_PREFERRED#root">
+	</section>
+	<section name="EXPORT_DDL_FILE#root">
+	</section>
+	<section name="COUNT_ROWS#root">
+	</section>
+	<section name="REFRESH#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@53733fca#root">
+	</section>
+	<section name="CASCADE_DROP#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@4ca682ea#root">
+	</section>
+	<section name="OPEN_DBO#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@669e0d69#root">
+	</section>
+	<section name="SEPARATOR#root">
+	</section>
+	<section name="COPY_TABLE#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@5c3a8215#root">
+	</section>
+	<section name="NEW_SEQUENCE#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@d59296f#root">
+	</section>
+	<section name="CREATE_TABLE#root">
+	</section>
+	<section name="NEW_TYPE#root">
+	</section>
+	<section name="CREATE_USER#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@47c33a6a#root">
+	</section>
+	<section name="toadext.oracle.ui.generateEntityClassAction#root">
+	</section>
+	<section name="ORACLE#root">
+		<section name="My Schema">
+			<section name="com.dell.toadext.oracle.nui.provider.browser.DefaultSchemaContentProvider">
+				<section name="Synonyms">
+					<section name="Invalid Synonyms">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.InvalidSynonymContentProvider">
+						</section>
+					</section>
+					<section name="com.dell.toadext.oracle.core.model.IOraSynonym">
+					</section>
+				</section>
+				<section name="Types">
+					<section name="com.dell.toadext.oracle.core.model.IOraType">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageMethodContentProvider">
+						</section>
+					</section>
+				</section>
+				<section name="Sequences">
+					<section name="com.dell.toadext.oracle.core.model.IOraSequence">
+					</section>
+				</section>
+				<section name="Views">
+					<section name="com.dell.toadext.oracle.core.model.IOraView">
+						<section name="Constraints">
+							<section name="com.dell.toadext.oracle.core.model.IOraConstraint">
+							</section>
+						</section>
+						<section name="Columns">
+							<section name="com.dell.toadext.oracle.core.model.IOraColumn">
+							</section>
+						</section>
+						<section name="Triggers">
+							<section name="com.dell.toadext.oracle.core.model.IOraTrigger">
+							</section>
+						</section>
+					</section>
+				</section>
+				<section name="Procedures">
+					<section name="com.dell.toadext.oracle.core.model.IOraProcedure">
+					</section>
+				</section>
+				<section name="Functions">
+					<section name="com.dell.toadext.oracle.core.model.IOraFunction">
+					</section>
+				</section>
+				<section name="Triggers">
+					<section name="Schema Triggers">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraSchemaTriggerObjectExplorerProvider">
+						</section>
+					</section>
+					<section name="Database Triggers">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraDatabaseTriggerObjectExplorerProvider">
+						</section>
+					</section>
+					<section name="com.dell.toadext.oracle.nui.provider.browser.TriggersNodeProviderUsedForRefreshAllTriggers">
+					</section>
+					<section name="View Triggers">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraViewTriggerObjectExplorerProvider">
+						</section>
+					</section>
+					<section name="Table Triggers">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraTableTriggerObjectExplorerProvider">
+						</section>
+					</section>
+				</section>
+				<section name="Indexes">
+					<section name="com.dell.toadext.oracle.core.model.IOraIndex">
+					</section>
+				</section>
+				<section name="Session Roles">
+					<section name="com.dell.toadext.oracle.nui.provider.browser.OraSessionRolesContentProvider">
+					</section>
+				</section>
+				<section name="Database Links">
+					<section name="com.dell.toadext.oracle.core.model.IOraDatabaseLink">
+					</section>
+				</section>
+				<section name="Invalid Objects">
+					<section name="com.dell.toadext.oracle.nui.provider.browser.InvalidObjectContentProvider">
+					</section>
+				</section>
+				<section name="Constraints">
+					<section name="com.dell.toadext.oracle.core.model.IOraConstraint">
+					</section>
+				</section>
+				<section name="Packages">
+					<section name="com.dell.toadext.oracle.core.model.IOraPackage">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageCursorContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageConstantContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageExceptionContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageTypeContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageMethodContentProvider">
+						</section>
+					</section>
+				</section>
+				<section name="Clusters">
+					<section name="com.dell.toadext.oracle.core.model.IOraCluster">
+						<section name="Columns">
+							<section name="com.dell.toadext.oracle.core.model.IOraColumn">
+							</section>
+						</section>
+						<section name="Index">
+							<section name="com.dell.toadext.oracle.core.model.IOraIndex">
+							</section>
+						</section>
+					</section>
+				</section>
+				<section name="Tables">
+					<section name="com.dell.toadext.oracle.core.model.IOraTable">
+						<section name="Constraints">
+							<section name="com.dell.toadext.oracle.core.model.IOraConstraint">
+							</section>
+						</section>
+						<section name="Columns">
+							<section name="com.dell.toadext.oracle.core.model.IOraColumn">
+							</section>
+						</section>
+						<section name="Triggers">
+							<section name="com.dell.toadext.oracle.core.model.IOraTrigger">
+							</section>
+						</section>
+						<section name="Indexes">
+							<section name="com.dell.toadext.oracle.core.model.IOraIndex">
+							</section>
+						</section>
+					</section>
+				</section>
+				<section name="Materialized Views">
+					<section name="com.dell.toadext.oracle.core.model.IOraMaterializedView">
+						<section name="Columns">
+							<section name="com.dell.toadext.oracle.core.model.IOraColumn">
+							</section>
+						</section>
+						<section name="Indexes">
+							<section name="com.dell.toadext.oracle.core.model.IOraIndex">
+							</section>
+						</section>
+					</section>
+				</section>
+				<section name="Java Sources">
+					<section name="com.dell.toadext.oracle.core.model.IOraJavaSource">
+					</section>
+				</section>
+				<section name="Session Privs">
+					<section name="com.dell.toadext.oracle.nui.provider.browser.OraSessionPrivsContentProvider">
+					</section>
+				</section>
+			</section>
+		</section>
+		<section name="Preferred Schemas">
+			<section name="com.dell.toadext.oracle.nui.provider.browser.PreferredSchemaContentProvider">
+				<section name="Synonyms">
+					<section name="Invalid Synonyms">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.InvalidSynonymContentProvider">
+						</section>
+					</section>
+					<section name="com.dell.toadext.oracle.core.model.IOraSynonym">
+					</section>
+				</section>
+				<section name="Types">
+					<section name="com.dell.toadext.oracle.core.model.IOraType">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraTypeContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageMethodContentProvider">
+						</section>
+					</section>
+				</section>
+				<section name="Sequences">
+					<section name="com.dell.toadext.oracle.core.model.IOraSequence">
+					</section>
+				</section>
+				<section name="Views">
+					<section name="com.dell.toadext.oracle.core.model.IOraView">
+						<section name="Columns">
+							<section name="com.dell.toadext.oracle.core.model.IOraColumn">
+							</section>
+						</section>
+						<section name="Triggers">
+							<section name="com.dell.toadext.oracle.core.model.IOraTrigger">
+							</section>
+						</section>
+					</section>
+				</section>
+				<section name="Procedures">
+					<section name="com.dell.toadext.oracle.core.model.IOraProcedure">
+					</section>
+				</section>
+				<section name="Functions">
+					<section name="com.dell.toadext.oracle.core.model.IOraFunction">
+					</section>
+				</section>
+				<section name="Triggers">
+					<section name="Schema Triggers">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraSchemaTriggerObjectExplorerProvider">
+						</section>
+					</section>
+					<section name="Database Triggers">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraDatabaseTriggerObjectExplorerProvider">
+						</section>
+					</section>
+					<section name="View Triggers">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraViewTriggerObjectExplorerProvider">
+						</section>
+					</section>
+					<section name="Table Triggers">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraTableTriggerObjectExplorerProvider">
+						</section>
+					</section>
+				</section>
+				<section name="Indexes">
+					<section name="com.dell.toadext.oracle.core.model.IOraIndex">
+					</section>
+				</section>
+				<section name="Database Links">
+					<section name="com.dell.toadext.oracle.core.model.IOraDatabaseLink">
+					</section>
+				</section>
+				<section name="Invalid Objects">
+					<section name="com.dell.toadext.oracle.nui.provider.browser.InvalidObjectContentProvider">
+					</section>
+				</section>
+				<section name="Constraints">
+					<section name="com.dell.toadext.oracle.core.model.IOraConstraint">
+					</section>
+				</section>
+				<section name="Packages">
+					<section name="com.dell.toadext.oracle.core.model.IOraPackage">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageCursorContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageConstantContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageExceptionContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageTypeContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageMethodContentProvider">
+						</section>
+					</section>
+				</section>
+				<section name="Clusters">
+					<section name="com.dell.toadext.oracle.core.model.IOraCluster">
+						<section name="Columns">
+							<section name="com.dell.toadext.oracle.core.model.IOraColumn">
+							</section>
+						</section>
+						<section name="Index">
+							<section name="com.dell.toadext.oracle.core.model.IOraIndex">
+							</section>
+						</section>
+					</section>
+				</section>
+				<section name="Tables">
+					<section name="com.dell.toadext.oracle.core.model.IOraTable">
+						<section name="Constraints">
+							<section name="com.dell.toadext.oracle.core.model.IOraConstraint">
+							</section>
+						</section>
+						<section name="Columns">
+							<section name="com.dell.toadext.oracle.core.model.IOraColumn">
+							</section>
+						</section>
+						<section name="Triggers">
+							<section name="com.dell.toadext.oracle.core.model.IOraTrigger">
+							</section>
+						</section>
+						<section name="Indexes">
+							<section name="com.dell.toadext.oracle.core.model.IOraIndex">
+							</section>
+						</section>
+					</section>
+				</section>
+				<section name="Materialized Views">
+					<section name="com.dell.toadext.oracle.core.model.IOraMaterializedView">
+						<section name="Columns">
+							<section name="com.dell.toadext.oracle.core.model.IOraColumn">
+							</section>
+						</section>
+						<section name="Indexes">
+							<section name="com.dell.toadext.oracle.core.model.IOraIndex">
+							</section>
+						</section>
+					</section>
+				</section>
+				<section name="Java Sources">
+					<section name="com.dell.toadext.oracle.core.model.IOraJavaSource">
+					</section>
+				</section>
+			</section>
+		</section>
+		<section name="Roles">
+			<section name="com.dell.toadext.oracle.core.model.IOraRole">
+				<section name="Privileges">
+					<section name="com.dell.toadext.oracle.core.model.IOraPrivilege">
+					</section>
+				</section>
+				<section name="Roles">
+					<section name="com.dell.toadext.oracle.core.model.IOraUserRole">
+					</section>
+				</section>
+			</section>
+		</section>
+		<section name="Users">
+			<section name="com.dell.toadext.oracle.core.model.IOraUser">
+				<section name="Tablespaces">
+					<section name="com.dell.toadext.oracle.core.model.IOraUserTablespace">
+					</section>
+				</section>
+				<section name="Privileges">
+					<section name="com.dell.toadext.oracle.core.model.IOraPrivilege">
+					</section>
+				</section>
+				<section name="Roles">
+					<section name="com.dell.toadext.oracle.core.model.IOraUserRole">
+					</section>
+				</section>
+			</section>
+		</section>
+		<section name="Public">
+			<section name="Synonyms">
+				<section name="Invalid Synonyms">
+					<section name="com.dell.toadext.oracle.nui.provider.browser.InvalidPublicSynonymContentProvider">
+					</section>
+				</section>
+				<section name="com.dell.toadext.oracle.core.model.IOraSynonym">
+				</section>
+			</section>
+			<section name="Database Links">
+				<section name="com.dell.toadext.oracle.core.model.IOraDatabaseLink">
+				</section>
+			</section>
+		</section>
+		<section name="All Schemas">
+			<section name="com.dell.toadext.oracle.nui.provider.browser.OtherSchemaContentProvider">
+				<section name="Synonyms">
+					<section name="Invalid Synonyms">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.InvalidSynonymContentProvider">
+						</section>
+					</section>
+					<section name="com.dell.toadext.oracle.core.model.IOraSynonym">
+					</section>
+				</section>
+				<section name="Types">
+					<section name="com.dell.toadext.oracle.core.model.IOraType">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraTypeContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageMethodContentProvider">
+						</section>
+					</section>
+				</section>
+				<section name="Sequences">
+					<section name="com.dell.toadext.oracle.core.model.IOraSequence">
+					</section>
+				</section>
+				<section name="Views">
+					<section name="com.dell.toadext.oracle.core.model.IOraView">
+						<section name="Columns">
+							<section name="com.dell.toadext.oracle.core.model.IOraColumn">
+							</section>
+						</section>
+						<section name="Triggers">
+							<section name="com.dell.toadext.oracle.core.model.IOraTrigger">
+							</section>
+						</section>
+					</section>
+				</section>
+				<section name="Procedures">
+					<section name="com.dell.toadext.oracle.core.model.IOraProcedure">
+					</section>
+				</section>
+				<section name="Functions">
+					<section name="com.dell.toadext.oracle.core.model.IOraFunction">
+					</section>
+				</section>
+				<section name="Triggers">
+					<section name="Schema Triggers">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraSchemaTriggerObjectExplorerProvider">
+						</section>
+					</section>
+					<section name="Database Triggers">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraDatabaseTriggerObjectExplorerProvider">
+						</section>
+					</section>
+					<section name="View Triggers">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraViewTriggerObjectExplorerProvider">
+						</section>
+					</section>
+					<section name="Table Triggers">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraTableTriggerObjectExplorerProvider">
+						</section>
+					</section>
+				</section>
+				<section name="Indexes">
+					<section name="com.dell.toadext.oracle.core.model.IOraIndex">
+					</section>
+				</section>
+				<section name="Database Links">
+					<section name="com.dell.toadext.oracle.core.model.IOraDatabaseLink">
+					</section>
+				</section>
+				<section name="Invalid Objects">
+					<section name="com.dell.toadext.oracle.nui.provider.browser.InvalidObjectContentProvider">
+					</section>
+				</section>
+				<section name="Constraints">
+					<section name="com.dell.toadext.oracle.core.model.IOraConstraint">
+					</section>
+				</section>
+				<section name="Packages">
+					<section name="com.dell.toadext.oracle.core.model.IOraPackage">
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageCursorContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageConstantContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageExceptionContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageTypeContentProvider">
+						</section>
+						<section name="com.dell.toadext.oracle.nui.provider.browser.OraPackageMethodContentProvider">
+						</section>
+					</section>
+				</section>
+				<section name="Clusters">
+					<section name="com.dell.toadext.oracle.core.model.IOraCluster">
+						<section name="Columns">
+							<section name="com.dell.toadext.oracle.core.model.IOraColumn">
+							</section>
+						</section>
+						<section name="Index">
+							<section name="com.dell.toadext.oracle.core.model.IOraIndex">
+							</section>
+						</section>
+					</section>
+				</section>
+				<section name="Tables">
+					<section name="com.dell.toadext.oracle.core.model.IOraTable">
+						<section name="Constraints">
+							<section name="com.dell.toadext.oracle.core.model.IOraConstraint">
+							</section>
+						</section>
+						<section name="Columns">
+							<section name="com.dell.toadext.oracle.core.model.IOraColumn">
+							</section>
+						</section>
+						<section name="Triggers">
+							<section name="com.dell.toadext.oracle.core.model.IOraTrigger">
+							</section>
+						</section>
+						<section name="Indexes">
+							<section name="com.dell.toadext.oracle.core.model.IOraIndex">
+							</section>
+						</section>
+					</section>
+				</section>
+				<section name="Materialized Views">
+					<section name="com.dell.toadext.oracle.core.model.IOraMaterializedView">
+						<section name="Columns">
+							<section name="com.dell.toadext.oracle.core.model.IOraColumn">
+							</section>
+						</section>
+					</section>
+				</section>
+				<section name="Java Sources">
+					<section name="com.dell.toadext.oracle.core.model.IOraJavaSource">
+					</section>
+				</section>
+			</section>
+		</section>
+	</section>
+	<section name="DEPENDENCIES#root">
+	</section>
+	<section name="REBUILD_ALL_INDEXES#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@49821d20#root">
+	</section>
+	<section name="TRUNCATE#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@23078a67#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@1364560f#root">
+	</section>
+	<section name="EXPORT_DATA#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@253e9d18#root">
+	</section>
+	<section name="SCHEMA_FILTER#root">
+	</section>
+	<section name="EDIT_DDL_WORKSHEET#root">
+	</section>
+	<section name="NEW_SYNONYM#root">
+	</section>
+	<section name="RENAME#root">
+	</section>
+	<section name="CREATE_VIEW#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@4ef67d9f#root">
+	</section>
+	<section name="DROP#root">
+	</section>
+	<section name="COPY_DDL_CLIPBOARD#root">
+	</section>
+	<section name="com.dell.toadext.schemabrowser.ActionList@56c59922#root">
+	</section>
+	<section name="IMPORT_DATA#root">
+	</section>
+	<section name="CREATE_SCHEMA#root">
+	</section>
+</section>

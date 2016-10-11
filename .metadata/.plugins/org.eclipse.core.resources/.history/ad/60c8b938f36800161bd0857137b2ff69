@@ -1,0 +1,56 @@
+/*자바언어로 네트워크 프로그램을 작성할 수있으며
+ * java.net 패키지에서 대부분 지원한다.
+ * ip 인터넷과 연결된 컴퓨터들의 주소
+ * 소켓 
+ * */
+package com.sds.network;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class ChatServer {
+	ServerSocket server;
+	int port=9997;//1~1024까지는 시스템이 점유한 포트이므로 사용해선 안된다.
+	//오라클, mysql등 유명한 소프트웽어 프로그램 번호도 피해애 한다.
+	InputStreamReader isr;
+	BufferedReader buffr;
+	OutputStreamWriter osw;
+	BufferedWriter buffw;
+	
+	public ChatServer() {
+		try {
+			server=new ServerSocket(port);//서버 생성
+			System.out.println("서버소켓 생성");
+			Socket client=server.accept();//클라이언트의 접속을 받아 들이는 메서드, 참고) 접속이 있을 때까지 대기 상태에 빠진다.
+			System.out.println("접속자 발견"+client.getInetAddress().getHostAddress());
+			/*소켓에는 접속 클라이언트와 관련된 정보가 포함되어 있으므로*/
+			InputStream is=client.getInputStream();//데이터 입력용
+			OutputStream os=client.getOutputStream();//데이터 출력용
+			isr=new InputStreamReader(is);
+			buffr=new BufferedReader(isr);
+			osw=new OutputStreamWriter(os);
+			buffw=new BufferedWriter(osw);
+			int data;
+			while(true){
+				data=buffr.read();//데이터가 입력될 때까지 지연
+				System.out.print(data);
+				//buffw.write(data);
+				//buffw.flush();
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void main(String[] args) {
+		new ChatServer();
+	}
+
+}

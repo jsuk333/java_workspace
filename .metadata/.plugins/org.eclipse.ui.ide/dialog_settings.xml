@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\efro2\Desktop\test3"/>
+		<item value="C:\Users\efro2\Desktop\합쳐\ViewOfAll"/>
+		<item value="C:\Users\efro2\Desktop\RemoteControl\View"/>
+		<item value="C:\Users\efro2\Desktop\View"/>
+		<item value="C:\Users\efro2\Desktop\Admin3"/>
+		<item value="C:\Users\efro2\Desktop\RemoteControl"/>
+		<item value="C:\Users\efro2\Desktop\ViewOfAll (2)"/>
+		<item value="C:\Users\efro2\Desktop\Admin"/>
+		<item value="C:\Users\efro2\Desktop\ViewOfAll"/>
+		<item value="C:\Users\efro2\Desktop\ModooView"/>
+		<item value="C:\java_workspace\RemoteControl"/>
+		<item value="C:\Users\efro2\Desktop\test"/>
+	</list>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1470894569854" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="700" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="711" key="DIALOG_HEIGHT"/>
+		<item value="621" key="DIALOG_X_ORIGIN"/>
+		<item value="47" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

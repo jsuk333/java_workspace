@@ -1,0 +1,41 @@
+/*
+	1.Stream 이란? 데이터의 흐름
+	
+	2.분류
+	(1)방향성(실행중인 프로그램을 기준=프로세스)
+		-입력(Input)
+		-출력(Output)
+		
+	(2) 데이터 처리 방법
+	-기본 스트림이며 1byte씩 이해
+	
+	-문자기반 스트림
+	2btye씩 이해하는 스트림
+	문자를 표현할 수 있다.(비영어권 문자도 처리 가능)
+	
+	 -buffered 스트림
+*/
+package com.sds.stream;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+public class KeyboardStream {
+	InputStream is;
+	int data;
+	public KeyboardStream() {
+		is=System.in;
+		
+		try {
+			data=is.read();
+			System.out.println(data);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public static void main(String[] args) {
+		new KeyboardStream();
+	}
+
+}

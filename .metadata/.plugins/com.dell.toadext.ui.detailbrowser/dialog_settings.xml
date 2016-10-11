@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.dell.toadext.oracle.nui.viewer.detail.OraQueryResultViewer">
+		<section name="2d0272c9-5b07-44f1-bd62-d804ff56d6a7#MEMBER">
+		</section>
+		<section name="2d0272c9-5b07-44f1-bd62-d804ff56d6a7#ROOMS">
+		</section>
+		<section name="2d0272c9-5b07-44f1-bd62-d804ff56d6a7#MOVIE">
+			<item value="" key="where"/>
+			<list key="whereHistory">
+			</list>
+			<list key="hidden">
+			</list>
+			<list key="order">
+			</list>
+		</section>
+	</section>
+</section>

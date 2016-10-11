@@ -1,0 +1,71 @@
+package com.sds.game;
+
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JPanel;
+
+public class GameWindow extends JFrame implements ActionListener{
+	GamePanel gamepanel;
+	JMenuBar bar;
+	JMenu[] menu=new JMenu[2];
+	JMenuItem[] item=new JMenuItem[3];
+	String[] itemTitle={"게임시작","일시중지","게임종료"};
+	public GameWindow() {
+				
+		gamepanel=new GamePanel();
+		
+		add(gamepanel);
+		pack();
+		
+		//메뉴구성
+		bar=new JMenuBar();
+		menu[0]=new JMenu("게임옵션");
+		menu[1]=new JMenu("게임옵션");
+		
+		for(int i=0;i<item.length;i++){
+			item[i]=new JMenuItem(itemTitle[i]);
+			menu[0].add(item[i]);
+			item[i].addActionListener(this);
+		}
+		bar.add(menu[0]);
+		bar.add(menu[1]);
+		
+		setJMenuBar(bar);
+		
+		//메뉴 아이템과 리스너와의 연결
+		setLocationRelativeTo(null);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
+		setBackground(Color.black);
+	}
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		Object obj=e.getSource();
+		if(obj==item[0]){//게임 시작
+			gamepanel.startGame();
+		}else if(obj==item[1]){//일시 종료
+			gamepanel.pauseGame();
+		}else if(obj.equals(item[2])){//프로그램 종료
+			gamepanel.exitGame();
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new GameWindow();
+	}
+
+
+}

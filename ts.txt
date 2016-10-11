@@ -1,0 +1,94 @@
+SQL> create tablespace space0819
+  2  datafile 'C:\oraclexe\oracle\oradata\XE\space0819.dbf'
+  3  size 10m;
+create tablespace space0819
+*
+ERROR at line 1:
+ORA-01119: error in creating database file
+'C:\oraclexe\oracle\oradata\XE\space0819.dbf'
+ORA-27040: file create error, unable to create file
+OSD-04002: unable to open file
+O/S-Error: (OS 3) ?????£¿?£¿?? a?? ?? ?????£¿£¿ 
+
+
+SQL> create tablespace space0819
+  2  datafile 'C:\oraclexe\oracle\oradata\XE\space0819.dbf'
+  3  size 10m;
+create tablespace space0819
+*
+ERROR at line 1:
+ORA-01119: error in creating database file
+'C:\oraclexe\oracle\oradata\XE\space0819.dbf'
+ORA-27040: file create error, unable to create file
+OSD-04002: unable to open file
+O/S-Error: (OS 3) ?????£¿?£¿?? a?? ?? ?????£¿£¿ 
+
+
+SQL> select username from dba_users
+  2  datafile 'C:\oraclexe\app\oracle\oradata\XE\space0819.dbf'
+  3  ;
+datafile 'C:\oraclexe\app\oracle\oradata\XE\space0819.dbf'
+         *
+ERROR at line 2:
+ORA-00933: SQL command not properly ended 
+
+
+SQL> create tablespace space0819
+  2  datafile 'C:\oraclexe\app\oracle\oradata\XE\space0819.dbf'
+  3  size 10m;
+
+Tablespace created.
+
+SQL> create user java0819
+  2  identified by java0819
+  3  default tablespace space0819
+  4   quota unlimited on space0819;
+
+User created.
+
+SQL> grant create session,
+  2   create table,
+  3  create sequence to java0819;
+
+Grant succeeded.
+
+SQL> conn java0819/java0819
+Connected.
+SQL> show user
+USER is "JAVA0819"
+SQL> create table topcategory(
+  2  topcategory_id number primary key,
+  3  title varchar2(20),
+  4  ;
+
+*
+ERROR at line 4:
+ORA-00904: : invalid identifier 
+
+
+SQL> create table topcategory(
+  2  topcategory_id number primary key,
+  3  title varchar2(20))
+  4  ;
+
+Table created.
+
+SQL> create table subcategory(
+  2  subcategory_id number primary key,
+  3  title varchar2(20),
+  4  topcategory_id number);
+
+Table created.
+
+SQL> create table book(
+  2  book_id number primary key,
+  3  subcategory_id number,
+  4  bookname varchar2(50),
+  5  publisher varchar2(30),
+  6  author varchar2(60),
+  7  price number default 0,
+  8  regdate date default sysdate);
+
+Table created.
+
+SQL> spool off

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.dell.toadext.oracle.nui.viewer.object.OraTableViewer">
+		<section name="options">
+			<item value="false" key="STORAGE"/>
+			<item value="false" key="OWNER"/>
+			<item value="false" key="CONSTRAINTS"/>
+			<item value="false" key="INDEX"/>
+			<item value="false" key="METADATA"/>
+			<item value="false" key="SYNONYMS"/>
+			<item value="false" key="TABLESPACE"/>
+			<item value="false" key="GRANTS"/>
+			<item value="false" key="COMMENT"/>
+		</section>
+	</section>
+	<section name="com.dell.toadext.oracle.nui.viewer.detail.OraScriptViewer">
+		<section name="saveToFile">
+		</section>
+	</section>
+</section>

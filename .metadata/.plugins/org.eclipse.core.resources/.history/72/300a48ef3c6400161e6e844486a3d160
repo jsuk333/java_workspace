@@ -1,0 +1,24 @@
+/*주인공을 정의 한다.*/
+package com.sds.game;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+public class Hero {
+	int x;
+	int y;
+	public Hero(){
+		
+	}
+	
+	//일정한 물리량의 변화값을 결정하는 메서드
+	public void tick(){
+		x+=5;
+		y+=5;
+	}
+	//자신이 어떻게 그려져야 할지를 결정하는 메서드
+	public void render(Graphics g){
+		g.setColor(Color.yellow);
+		g.drawRect(x,y, 50, 50);
+	}
+}
